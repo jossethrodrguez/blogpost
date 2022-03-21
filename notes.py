@@ -78,7 +78,8 @@ git_reset = 'this gonna undo the changes to specific version';
 # to comparate changes in git we use diff 'git diff <git diff 'code-id-earler' 'code-id-older'
 git_diff = 'we can view a comparate the anterior state with one more recently';
 
-# to masa:
+# to change the version without delete other, we use 'git checkout <code-id-version> <file-name>
+git_checkout = 'we this we can change of version file or change the branch';
 
 
 
