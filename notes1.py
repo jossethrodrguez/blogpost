@@ -114,6 +114,8 @@ git_checkout = 'we this we can change of version file or change the branch';
 
 # to come back to master version we use git 'checkout master <file-name>'
 
+# to view the history the history of the branch 'git show-branch --all'
+
 #################################################################################################
 
 # SECOND STAGE IN THE COURSE
@@ -230,6 +232,10 @@ git_branch = 'Create a new branch';
 # we can cancel the merge with 'git merge --abort'
 
 # we can check the merge, and cancel it or confirm with a commit
+
+# we have a visual interface of our commits 'gitk'
+
+gitk = 'is a graphical repository browser, t is useful for exploring and visualizing the history of a repository';
 
 
 #######################################################################################################
@@ -515,5 +521,14 @@ tag = "Tags are ref's that point to specific points in Git history. Tagging is g
 
 # to remove the tags after to delete in local 'git push origin :refs/tags/<tag-name>'
 
+
+##################################################################################
+
+# professional workflow
+
+# by default the people can clone our remote repository, but can't to modicate it
+# for that we need to add the collaborators
+
+# go to our remote repository > settings > collaborators > add by email, username and full name
 
 
