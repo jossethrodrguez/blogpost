@@ -10,7 +10,7 @@ plain_text = 'it is just simple text, do not represent any other characters';
 git_stages ='are the stages of the work, working directory, staging zone, git repository';
 
 # the first of all we start a repository in a directory, we use 'git init'
-git_init = 'this start a repository';
+git_init 36b91d8= 'this start a repository';
 repository = 'is the data base where every change gonna be stay';
 
 #to configure git <git config>
@@ -151,7 +151,7 @@ git_stages;
 
 git_init;
 
-# two areas more 0are created, staging zone and repository
+# two areas more are created, staging zone and repository
 
 staging_zone;
 repository;
@@ -468,6 +468,52 @@ keychain = 'is app in macOS to store and share data(users, passwords) in icloud'
 
 ##############################################################
 
-# Alias and tags
+symbolic_link = 'a symbolic Link is a file that refers to a route in specifc, is a direct access';
+# we can create symbolic links using 'ln -s <route> <name>'
+# -s = symbolic
 
-# we can create a alias using
+
+# ALIAS AND TAGS
+
+
+# ENVIRONMENT VARIABLES SETTINGS
+
+env_var = "environment variables are a set of dynamic named values, stored within the system that are used by applications launched in shells or subshells. In simple words, an environment variable is a variable with a name and an associated value";
+
+# we can create a temporal alias with 'alias = <value>'
+# to view our of env var we use 'printenv'
+
+# to modify our env var we find in our main directory the '.bashrc'
+# this is the file where our env var are stored
+# if we use mac find '.zshrc'
+
+# and there we can create and modify alias and env var permanently
+
+# then all changes are already, we use 'bash'
+
+# we can create and modify alias in the git setting
+# using 'git config --global alias.<name> "<value>"
+
+# for example:
+
+# git config --global alias.superlog "log --graph --abbrev-commit --decorate --date=relative --format=format:'%C(bold blue)%h%C(reset) - %C(bold green)(%ar)%C(reset) %C(white)%s%C(reset) %C(dim white)- %an%C(reset)%C(bold yellow)%d%C(reset)' --all"
+
+# TAGS
+
+tag = "Tags are ref's that point to specific points in Git history. Tagging is generally used to capture a point in history that is used for a marked version release ";
+
+# to create a tag 'git tag -a <version> -m <message> <commit-id>
+# -a = add version
+# the version usually is put 'vx.x'
+
+# to view the list of my tags we use <git tag>
+# to view the specific commit linked to a tag <git show-ref --tags>
+
+# to delete a tag 'git tag -d <tag-name>'
+
+# to send the tag to remote <git push origin --tags>
+
+# to remove the tags after to delete in local 'git push origin :refs/tags/<tag-name>'
+
+
+
