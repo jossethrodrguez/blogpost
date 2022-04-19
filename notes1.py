@@ -225,7 +225,7 @@ git_branch = 'Create a new branch';
 # if there is gonna apear with <<<<<< and >>>> separete with =======
 # the first part is our local branch and the second the income branch changes
 
-#when a merge cobfilct happen, git wait that you resolve and commit the changes or cancel it
+#when a merge confilct happen, git wait that you resolve and commit the changes or cancel it
 
 # we just choose and modificated what code we want and commit
 
