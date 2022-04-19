@@ -10,7 +10,7 @@ plain_text = 'it is just simple text, do not represent any other characters';
 git_stages ='are the stages of the work, working directory, staging zone, git repository';
 
 # the first of all we start a repository in a directory, we use 'git init'
-git_init 36b91d8= 'this start a repository';
+git_init = 'this start a repository';
 repository = 'is the data base where every change gonna be stay';
 
 #to configure git <git config>
@@ -532,3 +532,10 @@ tag = "Tags are ref's that point to specific points in Git history. Tagging is g
 # go to our remote repository > settings > collaborators > add by email, username and full name
 
 
+# where are deloveping a project, we have the main branch who is the branch to publish
+
+# in a professional enviromnent we don't use the main branch 'till the end
+# is used the branch 'staging delopemnet'
+# is important have both branches updated at the same version
+# 
+#   
