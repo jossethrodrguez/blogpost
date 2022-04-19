@@ -537,5 +537,11 @@ tag = "Tags are ref's that point to specific points in Git history. Tagging is g
 # in a professional enviromnent we don't use the main branch 'till the end
 # is used the branch 'staging delopemnet'
 # is important have both branches updated at the same version
-# 
-#   
+
+
+# we need a work flow to develop in order and cleanly
+# the order is 
+# the Main Dev create the branches and assing to each dev a branch to work
+# each dev pull the changes 'git pull origin main' and work in their specific branch
+# when the dev has finishied their changes and commitis, push thier branch 'git pull origin <branch-name>'
+# The Main Dev pull the branches, compare and merger, then push it 
