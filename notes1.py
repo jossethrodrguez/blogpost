@@ -545,3 +545,9 @@ tag = "Tags are ref's that point to specific points in Git history. Tagging is g
 # each dev pull the changes 'git pull origin main' and work in their specific branch
 # when the dev has finishied their changes and commitis, push thier branch 'git pull origin <branch-name>'
 # The Main Dev pull the branches, compare and merger, then push it 
+
+# when we are working in other collaborators, our work is at specific branch
+# we push the branch and the Main dev, make a pull request to check the changes
+
+pull_request = "are a feature specific to GitHub, when we are ready with our changes and need and a feedback before to make a merge";
+
