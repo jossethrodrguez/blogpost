@@ -551,3 +551,18 @@ tag = "Tags are ref's that point to specific points in Git history. Tagging is g
 
 pull_request = "are a feature specific to GitHub, when we are ready with our changes and need and a feedback before to make a merge";
 
+# put request is like a merge, but first we must to compare the main version with the other version, and approve
+
+fork = "Is clone a foreign Repository in Github, work with the copy as own Repository";
+
+# to add our changes to the main repository is necessary make pull request from our remote repository to the main repository
+
+# if there's a update in main repository, we can add repository in our local repository fand pull
+# the merge and push to our remote repository
+
+# we link the main repository to our local repositoty for make pull
+# we named it as 'upstream', 'git remote add upstream <url>
+
+deploy = "Is the process to send to a Server one more files, the Server can be for Testing, development or production";
+
+
