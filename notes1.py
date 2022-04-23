@@ -2,7 +2,7 @@
 
 
 
-Git = 'Git is the Control Version system, it work as time line that let us come back to specif moments in the project';
+Git = "software desing to track and handle the evolotion of a project";
 
 plain_text = 'it is just simple text, do not represent any other characters';
 
