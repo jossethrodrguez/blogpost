@@ -581,3 +581,6 @@ README
 # [ ] before to link a url to a title
 
 github_pages = "Is a hosting in github"
+
+# we can publish our testing proyect there
+# we have a domain like "<name>.gitbub.io"
