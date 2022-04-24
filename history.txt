@@ -1,4 +1,8 @@
+
+main 2
+
 Esta es la historia de Freddy Vega
+
 
 Freddy Vega tiene 32 años y nacio en Colombia
 
@@ -7,6 +11,7 @@ Hoy hablaremos de su historia.
 Esta version va a actualizarse al master
 
 main 1
+
 
 si me la trajo, y la volvi a enviar :'D
 
