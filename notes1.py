@@ -579,3 +579,5 @@ README
 # > - sign quotes
 # * list points
 # [ ] before to link a url to a title
+
+github_pages = "Is a hosting in github"
