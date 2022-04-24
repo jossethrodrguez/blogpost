@@ -565,4 +565,5 @@ fork = "Is clone a foreign Repository in Github, work with the copy as own Repos
 
 deploy = "Is the process to send to a Server one more files, the Server can be for Testing, development or production";
 
+gitignore = "is a list of files to be ignored, git won't track them";
 
