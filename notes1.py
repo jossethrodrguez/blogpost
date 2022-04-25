@@ -615,7 +615,9 @@ git_stash = "takes your uncommitted changes (both staged and unstaged), saves th
 
 # to every stah will assing a number(staring by 0)
 
-# to use a stash we use "git stash pop <number>"
+# to get a stash element we use "git stash pop <number>"
+
+# to use the stash without remve from the stash list "git stash apply <number>"
 
 # to remove a stash "git stash drop <number>"
 
