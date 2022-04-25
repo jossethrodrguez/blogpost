@@ -12,8 +12,5 @@ adding this line from my github
 
 testing if this display in local :'D
 
-<<<<<<< HEAD
-=======
 masa 1
 masa 2
->>>>>>> f8a2bfe (masa 2)
