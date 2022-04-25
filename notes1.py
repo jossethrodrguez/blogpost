@@ -622,3 +622,17 @@ git_stash = "takes your uncommitted changes (both staged and unstaged), saves th
 # to remove a stash "git stash drop <number>"
 
 # and we can create a branch and add the stash there with "git stash branch <name-branch> <number>"
+
+# to remve all elements in stash list "git stash clear"
+
+git_clean = "Remove all data files untracked "
+
+# to view what files will be deleted "git clean --dry-run"
+
+# we use the next parameters to choose the work of git clean
+# -f = delete
+# -d = directories
+# -n = list files that going to deleted, is equal to --dry-run
+# -x = list files even the ignored
+# -q = show errors and files deleted
+# -i = interactive mode  
