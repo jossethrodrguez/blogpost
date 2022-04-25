@@ -643,3 +643,16 @@ git_amend = "amend the more recent commit"
 
 # if we made a commit, and want to modify something little or message
 # we must to first add JUST the file that we want modify and then "git commit --amend"
+
+git_grep = " search easily a word, tag, etc"
+
+# is "git grep '<word>'
+# -c = count how much times appear that word
+# -n = specify what lines is it
+
+# we can do something likely with git log
+
+# is "git log -S '<name>'" 
+
+# grep -> files
+# log -> commits 
