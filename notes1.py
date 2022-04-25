@@ -625,7 +625,7 @@ git_stash = "takes your uncommitted changes (both staged and unstaged), saves th
 
 # to remve all elements in stash list "git stash clear"
 
-git_clean = "Remove all data files untracked "
+git_clean = "Remove all data files untracked ";
 
 # to view what files will be deleted "git clean --dry-run"
 
@@ -636,3 +636,5 @@ git_clean = "Remove all data files untracked "
 # -x = list files even the ignored
 # -q = show errors and files deleted
 # -i = interactive mode  
+
+git_reflog = "i like git log, but this show all changes";
