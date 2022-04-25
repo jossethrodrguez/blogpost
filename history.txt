@@ -14,3 +14,7 @@ testing if this display in local :'D
 
 masa 1
 masa 2
+
+testing git amend
+
+modifing the commit message

@@ -638,3 +638,8 @@ git_clean = "Remove all data files untracked ";
 # -i = interactive mode  
 
 git_reflog = "i like git log, but this show all changes";
+
+git_amend = "amend the more recent commit"
+
+# if we made a commit, and want to modify something little or message
+# we must to first add JUST the file that we want modify and then "git commit --amend"
