@@ -584,3 +584,39 @@ github_pages = "Is a hosting in github"
 
 # we can publish our testing proyect there
 # we have a domain like "<name>.gitbub.io"
+
+git_rebase = "rewrite commits from one branch onto another branch"
+
+# git rebase is like a merge, but this merge the head changes in the head of each branch
+
+# in the other hand, git rebase merge the history like if was a single branch
+
+# we use "git rebase <branch-name>"
+
+# we have the main branch and the secondary branch
+
+# the main branch is where we want to rebase
+
+# stay in the secondary branch and use "git branch <main-branch-name>"
+
+# the go to the main branch "git rebase <secondary-branch name>"
+
+# if we have conflict we resolve then manually and then use "git add <files>"
+# Resolve all conflicts manually, mark them as resolved with
+# "git add/rm <conflicted_files>", then run "git rebase --continue".
+# You can instead skip this commit: run "git rebase --skip".
+# To abort and get back to the state before "git rebase", run "git rebase --abort"
+
+git_stash = "takes your uncommitted changes (both staged and unstaged), saves them away for later use, and then reverts them from your working copy."
+
+# to use the stash is "git stash saved '<message>'"
+
+# to view the stash we use "git stash list"
+
+# to every stah will assing a number(staring by 0)
+
+# to use a stash we use "git stash pop <number>"
+
+# to remove a stash "git stash drop <number>"
+
+# and we can create a branch and add the stash there with "git stash branch <name-branch> <number>"

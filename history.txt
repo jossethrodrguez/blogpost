@@ -12,7 +12,3 @@ adding this line from my github
 
 testing if this display in local :'D
 
-exp1
-
-main 1
-exp 2
