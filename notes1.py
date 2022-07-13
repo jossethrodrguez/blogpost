@@ -656,3 +656,11 @@ git_grep = " search easily a word, tag, etc"
 
 # grep -> files
 # log -> commits 
+
+# COLLABORATIVES COMMANDS 
+
+# 'git shortlog' show just the commits in the projects
+# 'git shortlog -sn show how many commits have every dev in the project
+
+# 'git blame <file>' show who worked in a every line specificly
+# with 'L<initial-number-line>,<final-number-line> ' show info in a specific block
