@@ -1,1 +1,0 @@
-This folder stores my projects, notes and takeaways about __How Linux Works, 3rd Edition__ Book.
